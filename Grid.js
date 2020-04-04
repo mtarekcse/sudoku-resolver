@@ -29,8 +29,6 @@ class Grid {
             this.rules.forEach(rule => {
                 let probabilityMatrix = draw_propability_matrix(this.board);
                 let isChanged = rule.apply(this.board, probabilityMatrix, this.changedCells);
-                if (this.changedCells.length == 48)
-                    console.log(this.changedCells.length);
                 isBoardChanged = isBoardChanged || isChanged;
             });
         }
