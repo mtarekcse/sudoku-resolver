@@ -1,7 +1,7 @@
 {
   "name": "sudoku-resolver",
   "version": "1.0.0",
-  "description": "The app get dudoku problem and applies rules to resolve the problem and print the solution, If the rules can not resolve it, the app prints the last status of the Game so that user can complete it manually.",
+  "description": "The app get a Sudoku problem and applies rules to resolve the problem and print the solution, If the rules can not resolve it, the app prints the last status of the Game so that user can complete it manually.",
   "main": "App.js",
   "dependencies": {
     "lodash": "^4.17.15"
